@@ -1,0 +1,27 @@
+# Entorno virtual
+env/
+
+# Archivos generados por Django
+*.pyc
+*.pyo
+__pycache__/
+
+# Archivo de configuración local de Django
+*.env
+
+# Migraciones de Django
+**/migrations/
+
+# Archivos de compilación de Vue.js
+/dist/
+/node_modules/
+
+# Archivos de configuración de IDE
+.vscode/
+.idea/
+
+# Archivos de configuración de sistema
+*.sqlite3
+*.db
+*.sqlite
+*.db.sqlite3
